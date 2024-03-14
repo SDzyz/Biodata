@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f0f3230e19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Responsibilities</a></li>
+                    <li><a href="#portfolio">Character Reference</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>DZ/FZ Kaizen</p>
+                <h2>Hi, I'm <span>Daniel</span> <br>Fernandez </h2>
+            </div>
+        </div>
+    </div>
+    <!------------------------ABOUT------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Daniel Fernandez, a 17-year-old student currently immersed in the challenges and wonders of Grade 11 at Butterfly Kingdom E-Learning School. Fueled by a profound interest in the ICT disciplines, I am dedicated to unraveling the mysteries of science, technology, engineering.</p>          
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Information</p>
+                        <p class="tab-links" onclick="opentab('experience')">Education</p>
+                        <p class="tab-links" onclick="opentab('education')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>AGE:</span><br>17 YEARS OLD</li>
+                            <li><span>GENDER:</span><br>MALE</li>
+                            <li><span>STATUS:</span><br>TAKEN</li>
+                            <li><span>WEIGHT:</span><br>87KG</li>
+                            <li><span>HEIGHT:</span><br>5'10</li>
+                            <li><span>CITIZENSHIP:</span><br>FILIPINO</li>
+                          
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2028 - 2029</span><br>Kaizen Institute.</li>
+                            <li><span>Address</span><br>Dagupan City,PH</li>
+                            <li><span>POSITION</span><br>Head Manager</li>
+                            <li><span>2031-2032</span><br>Dodong Institute</li>
+                            <li><span>Address:</span><br>Quintong City, USA</li>
+                            <li><span>POSITION</span><br>Lead Developer</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025-2029</span><br>TERTIARY: PSU BAYAMBANG</li>
+                            <li><span>2025-2029</span><br>COURSE: BACHELOR OF SECONDARY EDUCATION</li>
+                            <li><span>2015-2025</span><br>SECONDARY: BUTTERFLY KINGDOM E LEARNING SCHOOL</li>
+                            <li><span>2010-2017</span><br>PRIMARY: COLILING ELEMENTARY SCHOOL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------SERVICES-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Responsibilities</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Teacher</h2>
+                    <p>Create engaging environment, deliver content effectively, ensure understanding.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Teacher</h2>
+                    <p>Gauge progress, provide feedback through exams, quizzes, projects, assignments.                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Teacher</h2>
+                    <p>Design materials aligned with standards, tailored to student needs and maintain positive environment, manage behavior, promote respect, ensure inclusivity.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+<!------------------portfolio------------------------------------------------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">CHARACTER REFERENCE</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpeg">
+                <div class="layer">
+                    <h3>JOSH MOJICA
+                        CEO | JSHMJCA@GMAIL.COM</h3>
+                    <p>Josh Mojica, a young entrepreneur from the Philippines, gained fame and success by turning kangkong (water spinach) into crunchy and delicious chips. His business, Kangkong Chips Original, has become a remarkable venture, all starting with a simple vegetable recipe and determination to achieve his dreams</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/IMG_20230419_093146_131.jpg">
+                <div class="layer">
+                    <h3>JOHN MARK
+                        MANAGERS | KNGKNG@CHIPS.COM
+                    </h3>
+                    <p>John Mark Sevilia also known as shinaido a manager at kangkong chips by josh mojica he is well know to be a profesional pro player at MLBB comunity his highest rank is mythical warior with 200 pts and best pick of nana balmond, fanny.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/received_315753638186669.jpeg">
+                <div class="layer">
+                    <h3>DANE MESA
+                        MANAGER | KNGKNG@CHIPS.COM</h3>
+                    <p>Dane Mesa also known as dodong a manager at kangkong chips by josh mojica he is well know to be a profesional pro player at MLBB comunity his highest rank is mythical warior with 10 pts and best pick of angela, hulk, dogong and he is very kind and intilegent person and bulky.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------------------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>danielfernandezyahoo@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>PH +639318985793</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Dieb<i class="fa-solid fa-heart"></i></p>
+    </div>
+
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+</body>
+</html>
